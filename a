@@ -1,0 +1,337 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Social Media Page</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link href="//fonts.googleapis.com/css?family=Raleway:200,300" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style type="text/css" media="screen">
+    body {
+        margin: auto;
+        /* background: #000; */
+        font-family: Raleway, sans-serif;
+        display: table;
+    }
+
+    .container {
+        /* background: #000; */
+        /* padding: 4px; */
+        /* width: 380px; */
+        margin: auto;
+        display: table-cell;
+        /* vertical-align: middle; */
+        text-align: -webkit-center;
+        min-width: 320px;
+    }
+
+    /* For template = 2 css */
+    .container .social-2 {
+        padding: 4px 4px;
+        /* font-size: 20px; */
+        color: #fff;
+        display: block;
+        vertical-align: bottom;
+        text-decoration: none;
+    }
+
+    .container .social-2>span {
+        display: block;
+        position: relative;
+        vertical-align: middle;
+    }
+
+    .container .social-2>span p {
+        /* display: inline-block; */
+        display: block;
+        line-height: 22px;
+        vertical-align: bottom;
+        word-break: break-word;
+        /* trigger width is 99px for normal size cards */
+        /* width: fit-content; */
+    }
+
+    .container .social-2 img {
+        height: 55px;
+        width: 55px;
+        padding-right: 10px;
+    }
+    /* end for template = 2 css */
+
+    /* For template = 3 css */
+    .container .social-3 {
+        background: #fff !important;
+        padding: 4px 4px;
+        /* font-size: 20px; */
+        color: #000;
+        display: block;
+        vertical-align: bottom;
+        text-decoration: none;
+    }
+
+    .container .social-3>span {
+      display: block;
+      position: relative;
+      vertical-align: middle;
+    }
+
+    .container .social-3>span p {
+      /* display: inline-block; */
+      display: block;
+      line-height: 22px;
+      vertical-align: bottom;
+      word-wrap: break-word;
+      /* trigger width is 99px for normal size cards */
+      /* width: fit-content; */
+    }
+
+    .container .social-3 img {
+        height: 55px;
+        /* width: 55px; */
+        padding-right: 10px;
+    }
+    /* end for template = 3 css */
+    /* .seperator {
+        position: absolute;
+        display: inline-block;
+        height: 5%;
+        width: 1px;
+        background: #fff;
+        opacity: 0.6;
+    } */
+
+    .top-title {
+        color: #000;
+        text-align: center;
+        padding: 4px;
+        font-weight: bold;
+        background: #f8f8f8;
+        margin-bottom: 6px;
+        margin-top: 6px;
+    }
+
+    /* @media (max-width: 355px) {
+        .container .social-1 {
+            font-size: 14px;
+        }
+        .container .social-1>span p {
+            line-height: 29px;
+        }
+        .container .social-1 img {
+            height: 55px;
+            width: 55px;
+        }
+    } */
+
+    /* @media (max-width: 305px) {
+        .container .social-1 {
+            font-size: 14px;
+        }
+        .container .social-1>span p {
+            line-height: 22px;
+        }
+        .container .social-1 img {
+            height: 50px;
+            width: 50px;
+        }
+        .container .social-1>span p {
+            padding: 0px 12px;
+        }
+    } */
+
+    /* @media (max-width: 275px) {
+        .container .social-1 {
+            font-size: 14px;
+        }
+        .container .social-1>span p {
+            line-height: 19px;
+        }
+        .container .social-1 img {
+            height: 45px;
+            width: 45px;
+        }
+        .container .social-1>span p {
+            padding: 0px 12px;
+        }
+    } */
+
+    .poweredby{
+        color:#000;
+    }
+    .facebook-bg{
+      background:#3b5998;
+    }
+    .youtube-bg{
+      background:#cd201f;
+    }
+    .twitter-bg{
+      background:#55acee;
+    }
+    .googleplus-bg{
+      background:#dd4b39;
+    }
+    .linkedin-bg{
+      background:#0077b5;
+    }
+    .pinterest-bg{
+      background:#cc2127;
+    }
+    .instagram-bg{
+      background:#3f729b;
+    }
+    .website-bg{
+      background:#fc8829;
+    }
+    .customlink-bg{
+      background:#c0392b;
+    }
+    .customlink2-bg{
+      background:#008000;
+    }
+    .wechat-bg{
+      background:#7bb32e;
+    }
+    .social-1-img{
+      width: 55px;
+      height: 55px;
+    }
+    </style>
+
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="container" style="width:380px;">
+            <div style="text-align:center;">
+              <img src="https://scanova-bucket.s3.amazonaws.com/upload/social_media/1540882983251-xhvzS73aDFEhdT8p.jpg" id="logo_pic" alt="Image not available" style="width:320px;">
+            </div>
+            <div class="top-title">Socialize with us</div>
+
+              
+              <table style="width:100%;text-align:center;table-layout:fixed;">
+                <tr>
+                    <td>
+                      <a href="https://www.facebook.com/profseer" class="social-2 website-bg" id="website-landing">
+                        <span>
+                                  <img src="/images/smedia-icons/website.png"/>
+                          <p>
+                            Go to our Website
+                          </p>
+                        </span>
+                      </a>
+                    </td>
+                    <td>
+                      <a href="https://www.facebook.com/profseer" class="social-2 facebook-bg" id="facebook-landing">
+                        <span>
+                                  <img src="/images/smedia-icons/facebook.png"/>
+                          <p>
+                            Like us on Facebook
+                          </p>
+                        </span>
+                      </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                      <a href="https://www.youtube.com/profseer" class="social-2 youtube-bg" id="youtube-landing">
+                        <span>
+                                  <img src="/images/smedia-icons/youtube.png"/>
+                          <p>
+                            Subscribe on Youtube
+                          </p>
+                        </span>
+                      </a>
+                    </td>
+                    <td>
+                      <a href="https://twitter.com/11" class="social-2 twitter-bg" id="twitter-landing">
+                        <span>
+                                  <img src="/images/smedia-icons/twitter.png"/>
+                          <p>
+                            Follow us on Twitter
+                          </p>
+                        </span>
+                      </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                      <a href="https://www.facebook.com/profseer" class="social-2 instagram-bg" id="instagram-landing">
+                        <span>
+                                  <img src="/images/smedia-icons/instagram.png"/>
+                          <p>
+                            Follow us on Instagram
+                          </p>
+                        </span>
+                      </a>
+                    </td>
+                    <td>
+                      <a href="https://www.facebook.com/profseer" class="social-2 customlink-bg" id="customlink-landing">
+                        <span>
+                                  <img src="/images/smedia-icons/customlink.png"/>
+                          <p>
+                            Go to our page
+                          </p>
+                        </span>
+                      </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                      <a href="https://www.pinterest.com/profseer/" class="social-2 pinterest-bg" id="pinterest-landing">
+                        <span>
+                                  <img src="/images/smedia-icons/pinterest.png"/>
+                          <p>
+                            Follow us on Pinterest
+                          </p>
+                        </span>
+                      </a>
+                    </td>
+                </tr>
+              </table>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    function goTo(href){
+        location.href = href;
+    }
+
+
+      document.getElementById("wechat-landing").addEventListener("click", function(){
+          var wechatId = document.getElementById("wechat-id").textContent;
+          var targetId = "_hiddenCopyText_";
+
+          target = document.getElementById(targetId);
+          if (!target) {
+              var target = document.createElement("textarea");
+              target.style.position = "absolute";
+              target.style.left = "-9999px";
+              target.style.top = "0px";
+              target.id = targetId;
+              document.body.appendChild(target);
+          }
+          target.textContent = wechatId;
+
+          var currentFocus = document.activeElement;
+          target.focus();
+          target.setSelectionRange(0, target.value.length);
+
+          var succeed;
+          try{
+              succeed = document.execCommand('copy');
+          } catch(e) {
+              succeed = false;
+          }
+
+          if (currentFocus && typeof currentFocus.focus === "function" ) {
+              currentFocus.focus();
+          }
+
+          target.textContent = "";
+          alert("WeChat ID copied to clipboard. Paste this ID in the Search bar of the Contacts section of your WeChat app");
+      });
+
+    </script>
+  <script async src="https://drv.tw/inc/wd.js"></script></body>
+</html>
